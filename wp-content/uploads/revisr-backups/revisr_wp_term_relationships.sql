@@ -18,12 +18,12 @@ CREATE TABLE `wp_term_relationships` (
   `term_order` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`object_id`,`term_taxonomy_id`),
   KEY `term_taxonomy_id` (`term_taxonomy_id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_term_relationships` WRITE;
 /*!40000 ALTER TABLE `wp_term_relationships` DISABLE KEYS */;
-INSERT INTO `wp_term_relationships` VALUES (1,1,0);
+INSERT INTO `wp_term_relationships` VALUES (5,2,0),(7,2,0),(8,2,0),(111,3,0),(112,3,0),(187,2,0),(197,2,0),(211,2,0),(212,2,0),(213,2,0),(215,3,0),(373,2,0),(379,3,0),(387,2,0),(408,3,0),(760,5,0),(763,6,0),(764,6,0),(765,6,0),(766,6,0),(767,6,0),(768,6,0),(796,7,0),(797,7,0),(798,7,0),(799,7,0),(800,7,0),(801,7,0),(1042,5,0),(1210,5,0),(1211,5,0),(1212,5,0),(1213,5,0),(1214,5,0),(1215,5,0),(1316,5,0),(1317,4,0),(1318,4,0),(1319,4,0),(1320,4,0),(1321,4,0),(1322,4,0);
 /*!40000 ALTER TABLE `wp_term_relationships` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
