@@ -1,0 +1,198 @@
+[30-Apr-2016 23:47:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wp-content/plugins/revslider/includes/framework/cssparser.class.php on line 152
+[30-Apr-2016 23:47:34 UTC] PHP Stack trace:
+[30-Apr-2016 23:47:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[30-Apr-2016 23:47:34 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:89
+[30-Apr-2016 23:47:34 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[30-Apr-2016 23:47:34 UTC] PHP   4. RevSliderAdmin::onAjaxAction() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[30-Apr-2016 23:47:34 UTC] PHP   5. RevSliderOperations->getDynamicCss() /home/ubuntu/workspace/wp-content/plugins/revslider/admin/revslider-admin.class.php:1243
+[30-Apr-2016 23:47:34 UTC] PHP   6. RevSliderCssParser::parseDbArrayToCss() /home/ubuntu/workspace/wp-content/plugins/revslider/includes/operations.class.php:919
+[01-May-2016 22:09:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wp-content/plugins/revslider/includes/framework/cssparser.class.php on line 152
+[01-May-2016 22:09:16 UTC] PHP Stack trace:
+[01-May-2016 22:09:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[01-May-2016 22:09:16 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin-ajax.php:89
+[01-May-2016 22:09:16 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[01-May-2016 22:09:16 UTC] PHP   4. RevSliderAdmin::onAjaxAction() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[01-May-2016 22:09:16 UTC] PHP   5. RevSliderOperations->getDynamicCss() /home/ubuntu/workspace/wp-content/plugins/revslider/admin/revslider-admin.class.php:1243
+[01-May-2016 22:09:16 UTC] PHP   6. RevSliderCssParser::parseDbArrayToCss() /home/ubuntu/workspace/wp-content/plugins/revslider/includes/operations.class.php:919
+[10-May-2016 01:38:24 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/supplements/fs-essential-functions-1.1.7.1.php on line 39
+[10-May-2016 01:38:24 UTC] PHP Stack trace:
+[10-May-2016 01:38:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[10-May-2016 01:38:24 UTC] PHP   2. delete_plugins() /home/ubuntu/workspace/wp-admin/plugins.php:346
+[10-May-2016 01:38:24 UTC] PHP   3. uninstall_plugin() /home/ubuntu/workspace/wp-admin/includes/plugin.php:829
+[10-May-2016 01:38:24 UTC] PHP   4. include() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1019
+[10-May-2016 01:38:24 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/ninja-forms.php:15
+[10-May-2016 01:38:24 UTC] PHP   6. nf_fs() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/NF_VersionSwitcher.php:224
+[10-May-2016 01:38:24 UTC] PHP   7. require_once() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/NF_VersionSwitcher.php:109
+[10-May-2016 01:38:24 UTC] PHP   8. fs_find_direct_caller_plugin_file() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/start.php:54
+[10-May-2016 01:38:24 UTC] PHP   9. strpos() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/supplements/fs-essential-functions-1.1.7.1.php:39
+[10-May-2016 01:38:24 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/supplements/fs-essential-functions-1.1.7.1.php on line 39
+[10-May-2016 01:38:24 UTC] PHP Stack trace:
+[10-May-2016 01:38:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[10-May-2016 01:38:24 UTC] PHP   2. delete_plugins() /home/ubuntu/workspace/wp-admin/plugins.php:346
+[10-May-2016 01:38:24 UTC] PHP   3. uninstall_plugin() /home/ubuntu/workspace/wp-admin/includes/plugin.php:829
+[10-May-2016 01:38:24 UTC] PHP   4. include() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1019
+[10-May-2016 01:38:24 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/ninja-forms.php:15
+[10-May-2016 01:38:24 UTC] PHP   6. nf_fs() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/NF_VersionSwitcher.php:224
+[10-May-2016 01:38:24 UTC] PHP   7. require_once() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/NF_VersionSwitcher.php:109
+[10-May-2016 01:38:24 UTC] PHP   8. fs_find_direct_caller_plugin_file() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/start.php:54
+[10-May-2016 01:38:24 UTC] PHP   9. strpos() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/supplements/fs-essential-functions-1.1.7.1.php:39
+[10-May-2016 01:38:24 UTC] PHP Warning:  First parameter must either be an object or the name of an existing class in /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php on line 3213
+[10-May-2016 01:38:24 UTC] PHP Stack trace:
+[10-May-2016 01:38:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[10-May-2016 01:38:24 UTC] PHP   2. delete_plugins() /home/ubuntu/workspace/wp-admin/plugins.php:346
+[10-May-2016 01:38:24 UTC] PHP   3. uninstall_plugin() /home/ubuntu/workspace/wp-admin/includes/plugin.php:829
+[10-May-2016 01:38:24 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1031
+[10-May-2016 01:38:24 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[10-May-2016 01:38:24 UTC] PHP   6. Freemius::_uninstall_plugin_hook() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[10-May-2016 01:38:24 UTC] PHP   7. Freemius->_uninstall_plugin_event() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3368
+[10-May-2016 01:38:24 UTC] PHP   8. Freemius->send_install_update() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3319
+[10-May-2016 01:38:24 UTC] PHP   9. property_exists() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3213
+[10-May-2016 01:38:24 UTC] PHP Warning:  First parameter must either be an object or the name of an existing class in /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php on line 3213
+[10-May-2016 01:38:24 UTC] PHP Stack trace:
+[10-May-2016 01:38:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[10-May-2016 01:38:24 UTC] PHP   2. delete_plugins() /home/ubuntu/workspace/wp-admin/plugins.php:346
+[10-May-2016 01:38:24 UTC] PHP   3. uninstall_plugin() /home/ubuntu/workspace/wp-admin/includes/plugin.php:829
+[10-May-2016 01:38:24 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1031
+[10-May-2016 01:38:24 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[10-May-2016 01:38:24 UTC] PHP   6. Freemius::_uninstall_plugin_hook() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[10-May-2016 01:38:24 UTC] PHP   7. Freemius->_uninstall_plugin_event() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3368
+[10-May-2016 01:38:24 UTC] PHP   8. Freemius->send_install_update() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3319
+[10-May-2016 01:38:24 UTC] PHP   9. property_exists() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3213
+[10-May-2016 01:38:24 UTC] PHP Warning:  First parameter must either be an object or the name of an existing class in /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php on line 3213
+[10-May-2016 01:38:24 UTC] PHP Stack trace:
+[10-May-2016 01:38:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[10-May-2016 01:38:24 UTC] PHP   2. delete_plugins() /home/ubuntu/workspace/wp-admin/plugins.php:346
+[10-May-2016 01:38:24 UTC] PHP   3. uninstall_plugin() /home/ubuntu/workspace/wp-admin/includes/plugin.php:829
+[10-May-2016 01:38:24 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1031
+[10-May-2016 01:38:24 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[10-May-2016 01:38:24 UTC] PHP   6. Freemius::_uninstall_plugin_hook() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[10-May-2016 01:38:24 UTC] PHP   7. Freemius->_uninstall_plugin_event() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3368
+[10-May-2016 01:38:24 UTC] PHP   8. Freemius->send_install_update() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3319
+[10-May-2016 01:38:24 UTC] PHP   9. property_exists() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3213
+[10-May-2016 01:38:24 UTC] PHP Warning:  First parameter must either be an object or the name of an existing class in /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php on line 3213
+[10-May-2016 01:38:24 UTC] PHP Stack trace:
+[10-May-2016 01:38:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[10-May-2016 01:38:24 UTC] PHP   2. delete_plugins() /home/ubuntu/workspace/wp-admin/plugins.php:346
+[10-May-2016 01:38:24 UTC] PHP   3. uninstall_plugin() /home/ubuntu/workspace/wp-admin/includes/plugin.php:829
+[10-May-2016 01:38:24 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1031
+[10-May-2016 01:38:24 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[10-May-2016 01:38:24 UTC] PHP   6. Freemius::_uninstall_plugin_hook() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[10-May-2016 01:38:24 UTC] PHP   7. Freemius->_uninstall_plugin_event() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3368
+[10-May-2016 01:38:24 UTC] PHP   8. Freemius->send_install_update() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3319
+[10-May-2016 01:38:24 UTC] PHP   9. property_exists() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3213
+[10-May-2016 01:38:24 UTC] PHP Warning:  First parameter must either be an object or the name of an existing class in /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php on line 3213
+[10-May-2016 01:38:24 UTC] PHP Stack trace:
+[10-May-2016 01:38:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[10-May-2016 01:38:24 UTC] PHP   2. delete_plugins() /home/ubuntu/workspace/wp-admin/plugins.php:346
+[10-May-2016 01:38:24 UTC] PHP   3. uninstall_plugin() /home/ubuntu/workspace/wp-admin/includes/plugin.php:829
+[10-May-2016 01:38:24 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1031
+[10-May-2016 01:38:24 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[10-May-2016 01:38:24 UTC] PHP   6. Freemius::_uninstall_plugin_hook() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[10-May-2016 01:38:24 UTC] PHP   7. Freemius->_uninstall_plugin_event() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3368
+[10-May-2016 01:38:24 UTC] PHP   8. Freemius->send_install_update() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3319
+[10-May-2016 01:38:24 UTC] PHP   9. property_exists() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3213
+[10-May-2016 01:38:24 UTC] PHP Warning:  First parameter must either be an object or the name of an existing class in /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php on line 3213
+[10-May-2016 01:38:24 UTC] PHP Stack trace:
+[10-May-2016 01:38:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[10-May-2016 01:38:24 UTC] PHP   2. delete_plugins() /home/ubuntu/workspace/wp-admin/plugins.php:346
+[10-May-2016 01:38:24 UTC] PHP   3. uninstall_plugin() /home/ubuntu/workspace/wp-admin/includes/plugin.php:829
+[10-May-2016 01:38:24 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1031
+[10-May-2016 01:38:24 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[10-May-2016 01:38:24 UTC] PHP   6. Freemius::_uninstall_plugin_hook() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[10-May-2016 01:38:24 UTC] PHP   7. Freemius->_uninstall_plugin_event() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3368
+[10-May-2016 01:38:24 UTC] PHP   8. Freemius->send_install_update() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3319
+[10-May-2016 01:38:24 UTC] PHP   9. property_exists() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3213
+[10-May-2016 01:38:24 UTC] PHP Warning:  First parameter must either be an object or the name of an existing class in /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php on line 3213
+[10-May-2016 01:38:24 UTC] PHP Stack trace:
+[10-May-2016 01:38:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[10-May-2016 01:38:24 UTC] PHP   2. delete_plugins() /home/ubuntu/workspace/wp-admin/plugins.php:346
+[10-May-2016 01:38:24 UTC] PHP   3. uninstall_plugin() /home/ubuntu/workspace/wp-admin/includes/plugin.php:829
+[10-May-2016 01:38:24 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1031
+[10-May-2016 01:38:24 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[10-May-2016 01:38:24 UTC] PHP   6. Freemius::_uninstall_plugin_hook() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[10-May-2016 01:38:24 UTC] PHP   7. Freemius->_uninstall_plugin_event() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3368
+[10-May-2016 01:38:24 UTC] PHP   8. Freemius->send_install_update() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3319
+[10-May-2016 01:38:24 UTC] PHP   9. property_exists() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3213
+[10-May-2016 01:38:24 UTC] PHP Warning:  First parameter must either be an object or the name of an existing class in /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php on line 3213
+[10-May-2016 01:38:24 UTC] PHP Stack trace:
+[10-May-2016 01:38:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[10-May-2016 01:38:24 UTC] PHP   2. delete_plugins() /home/ubuntu/workspace/wp-admin/plugins.php:346
+[10-May-2016 01:38:24 UTC] PHP   3. uninstall_plugin() /home/ubuntu/workspace/wp-admin/includes/plugin.php:829
+[10-May-2016 01:38:24 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1031
+[10-May-2016 01:38:24 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[10-May-2016 01:38:24 UTC] PHP   6. Freemius::_uninstall_plugin_hook() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[10-May-2016 01:38:24 UTC] PHP   7. Freemius->_uninstall_plugin_event() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3368
+[10-May-2016 01:38:24 UTC] PHP   8. Freemius->send_install_update() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3319
+[10-May-2016 01:38:24 UTC] PHP   9. property_exists() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3213
+[10-May-2016 01:38:24 UTC] PHP Warning:  First parameter must either be an object or the name of an existing class in /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php on line 3213
+[10-May-2016 01:38:24 UTC] PHP Stack trace:
+[10-May-2016 01:38:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[10-May-2016 01:38:24 UTC] PHP   2. delete_plugins() /home/ubuntu/workspace/wp-admin/plugins.php:346
+[10-May-2016 01:38:24 UTC] PHP   3. uninstall_plugin() /home/ubuntu/workspace/wp-admin/includes/plugin.php:829
+[10-May-2016 01:38:24 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1031
+[10-May-2016 01:38:24 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[10-May-2016 01:38:24 UTC] PHP   6. Freemius::_uninstall_plugin_hook() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[10-May-2016 01:38:24 UTC] PHP   7. Freemius->_uninstall_plugin_event() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3368
+[10-May-2016 01:38:24 UTC] PHP   8. Freemius->send_install_update() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3319
+[10-May-2016 01:38:24 UTC] PHP   9. property_exists() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3213
+[10-May-2016 01:38:24 UTC] PHP Warning:  First parameter must either be an object or the name of an existing class in /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php on line 3213
+[10-May-2016 01:38:24 UTC] PHP Stack trace:
+[10-May-2016 01:38:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[10-May-2016 01:38:24 UTC] PHP   2. delete_plugins() /home/ubuntu/workspace/wp-admin/plugins.php:346
+[10-May-2016 01:38:24 UTC] PHP   3. uninstall_plugin() /home/ubuntu/workspace/wp-admin/includes/plugin.php:829
+[10-May-2016 01:38:24 UTC] PHP   4. do_action() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1031
+[10-May-2016 01:38:24 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[10-May-2016 01:38:24 UTC] PHP   6. Freemius::_uninstall_plugin_hook() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[10-May-2016 01:38:24 UTC] PHP   7. Freemius->_uninstall_plugin_event() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3368
+[10-May-2016 01:38:24 UTC] PHP   8. Freemius->send_install_update() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3319
+[10-May-2016 01:38:24 UTC] PHP   9. property_exists() /home/ubuntu/workspace/wp-content/plugins/ninja-forms/lib/Freemius/includes/class-freemius.php:3213
+[13-May-2016 07:17:32 UTC] WordPress database error Table 'c9.wp_rg_form' doesn't exist for query SELECT f.id, f.title, f.date_created, f.is_active, 0 as lead_count, 0 view_count
+                FROM wp_rg_form f
+                WHERE is_trash=0 AND is_active=1
+                ORDER BY title ASC made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, Vc_Manager->init, do_action('vc_after_set_mode'), call_user_func_array, vc_vendor_gravityforms_load, GFFormsModel::get_forms
+[13-May-2016 07:17:32 UTC] WordPress database error Table 'c9.wp_rg_lead' doesn't exist for query SELECT form_id, count(id) as lead_count FROM wp_rg_lead l WHERE status='active' GROUP BY form_id made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, Vc_Manager->init, do_action('vc_after_set_mode'), call_user_func_array, vc_vendor_gravityforms_load, GFFormsModel::get_forms
+[13-May-2016 07:17:32 UTC] WordPress database error Table 'c9.wp_rg_form_view' doesn't exist for query SELECT form_id, sum(count) as view_count FROM wp_rg_form_view GROUP BY form_id made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, Vc_Manager->init, do_action('vc_after_set_mode'), call_user_func_array, vc_vendor_gravityforms_load, GFFormsModel::get_forms
+[13-May-2016 07:31:31 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/wp-content/plugins/gravityforms/widget.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/plugins/gravityforms/gravityforms.php on line 85
+[13-May-2016 07:31:31 UTC] PHP Stack trace:
+[13-May-2016 07:31:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[13-May-2016 07:31:31 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/plugins.php:10
+[13-May-2016 07:31:31 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[13-May-2016 07:31:31 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[13-May-2016 07:31:31 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[13-May-2016 07:31:31 UTC] PHP   6. include_once() /home/ubuntu/workspace/wp-settings.php:255
+[13-May-2016 07:31:31 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/wp-content/plugins/gravityforms/widget.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/plugins/gravityforms/gravityforms.php on line 85
+[13-May-2016 07:31:31 UTC] PHP Stack trace:
+[13-May-2016 07:31:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[13-May-2016 07:31:31 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/plugins.php:10
+[13-May-2016 07:31:31 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[13-May-2016 07:31:31 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[13-May-2016 07:31:31 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:92
+[13-May-2016 07:31:31 UTC] PHP   6. include_once() /home/ubuntu/workspace/wp-settings.php:255
+[13-May-2016 07:31:35 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/wp-content/plugins/gravityforms/widget.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/wp-content/plugins/gravityforms/gravityforms.php on line 85
+[13-May-2016 07:31:35 UTC] PHP Stack trace:
+[13-May-2016 07:31:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[13-May-2016 07:31:35 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[13-May-2016 07:31:35 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[13-May-2016 07:31:35 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[13-May-2016 07:31:35 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:255
+[13-May-2016 07:31:35 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/wp-content/plugins/gravityforms/widget.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/wp-content/plugins/gravityforms/gravityforms.php on line 85
+[13-May-2016 07:31:35 UTC] PHP Stack trace:
+[13-May-2016 07:31:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[13-May-2016 07:31:35 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[13-May-2016 07:31:35 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[13-May-2016 07:31:35 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:92
+[13-May-2016 07:31:35 UTC] PHP   5. include_once() /home/ubuntu/workspace/wp-settings.php:255
+[23-May-2016 01:40:59 UTC] PHP Warning:  preg_replace(): Compilation failed: unmatched parentheses at offset 14 in /home/ubuntu/workspace/wp-content/plugins/vc-row-parallax/uninstall.php on line 13
+[23-May-2016 01:40:59 UTC] PHP Stack trace:
+[23-May-2016 01:40:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/plugins.php:0
+[23-May-2016 01:40:59 UTC] PHP   2. delete_plugins() /home/ubuntu/workspace/wp-admin/plugins.php:346
+[23-May-2016 01:40:59 UTC] PHP   3. uninstall_plugin() /home/ubuntu/workspace/wp-admin/includes/plugin.php:829
+[23-May-2016 01:40:59 UTC] PHP   4. include() /home/ubuntu/workspace/wp-admin/includes/plugin.php:1007
+[23-May-2016 01:40:59 UTC] PHP   5. preg_replace() /home/ubuntu/workspace/wp-content/plugins/vc-row-parallax/uninstall.php:13
+[05-Jun-2016 05:17:44 UTC] WordPress database error Got error 28 from storage engine for query SHOW FULL COLUMNS FROM `wp_options` made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, Vc_Manager->init, do_action('vc_after_set_mode'), call_user_func_array, vc_vendor_gravityforms_load, GFFormsModel::get_forms, GFFormsModel::get_entry_count_per_form, GFCache::get, GFCache::get_transient, get_transient, delete_option
+[05-Jun-2016 05:17:44 UTC] WordPress database error Got error 28 from storage engine for query SHOW FULL COLUMNS FROM `wp_options` made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, Vc_Manager->init, do_action('vc_after_set_mode'), call_user_func_array, vc_vendor_gravityforms_load, GFFormsModel::get_forms, GFFormsModel::get_entry_count_per_form, GFCache::get, GFCache::get_transient, get_transient, delete_option
+[05-Jun-2016 05:17:44 UTC] WordPress database error Got error 28 from storage engine for query SHOW FULL COLUMNS FROM `wp_options` made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, Vc_Manager->init, do_action('vc_after_set_mode'), call_user_func_array, vc_vendor_gravityforms_load, GFFormsModel::get_forms, GFFormsModel::get_entry_count_per_form, GFCache::set, GFCache::set_transient, set_transient, update_option
+[05-Jun-2016 05:17:44 UTC] WordPress database error Got error 28 from storage engine for query SHOW FULL COLUMNS FROM `wp_options` made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, Vc_Manager->init, do_action('vc_after_set_mode'), call_user_func_array, vc_vendor_gravityforms_load, GFFormsModel::get_forms, GFFormsModel::get_view_count_per_form, GFCache::get, GFCache::get_transient, get_transient, delete_option
+[05-Jun-2016 05:17:44 UTC] WordPress database error Got error 28 from storage engine for query SHOW FULL COLUMNS FROM `wp_options` made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, Vc_Manager->init, do_action('vc_after_set_mode'), call_user_func_array, vc_vendor_gravityforms_load, GFFormsModel::get_forms, GFFormsModel::get_view_count_per_form, GFCache::get, GFCache::get_transient, get_transient, delete_option
+[05-Jun-2016 05:17:44 UTC] WordPress database error Got error 28 from storage engine for query SHOW FULL COLUMNS FROM `wp_options` made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, Vc_Manager->init, do_action('vc_after_set_mode'), call_user_func_array, vc_vendor_gravityforms_load, GFFormsModel::get_forms, GFFormsModel::get_view_count_per_form, GFCache::set, GFCache::set_transient, set_transient, update_option
+[05-Jun-2016 05:17:44 UTC] WordPress database error Got error 28 from storage engine for query SHOW FULL COLUMNS FROM `wp_options` made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, Vc_Manager->init, do_action('vc_after_set_mode'), call_user_func_array, vc_vendor_gravityforms_load, GFFormsModel::ge

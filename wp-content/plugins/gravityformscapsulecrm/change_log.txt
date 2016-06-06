@@ -1,0 +1,20 @@
+-----------------------------------------------------------
+1.0.4
+	- Updated Capsule CRM API library to use WordPress API functions.
+
+-----------------------------------------------------------
+1.0.3
+	- Added support for delaying feed processing until payment by PayPal Standard is successfully completed.
+	- Updated feed processing to abort person creation if email is empty or invalid.
+
+-----------------------------------------------------------
+1.0.2
+	- Fixed php warnings related to Milestone setting if only one milestone exists.
+
+-----------------------------------------------------------
+1.0.1
+	- Updated available field types for mapping to the person first name, last name, and email.
+
+-----------------------------------------------------------
+1.0
+	- It's all new!
