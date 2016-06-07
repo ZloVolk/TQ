@@ -1,0 +1,2 @@
+[06-Jun-2016 23:15:35 UTC] PHP Warning:  require_once(/home/nstudios/public_html/dev_teleqwest/wp-load.php): failed to open stream: No such file or directory in /home/nstudios/public_html/dev_teleqwest/wp-admin/admin-ajax.php on line 22
+[06-Jun-2016 23:15:35 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/nstudios/public_html/dev_teleqwest/wp-load.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/nstudios/public_html/dev_teleqwest/wp-admin/admin-ajax.php on line 22
